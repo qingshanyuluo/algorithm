@@ -20,6 +20,7 @@ public class MergeSort {
     }
 
     private static void merge(int[] arr, int s, int e) {
+        //略难且复杂，，手写几乎不可能一步完成
         int mid = (s + e) >> 1;
         int[] res = new int[arr.length];
         int f = s;
