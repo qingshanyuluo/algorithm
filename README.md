@@ -24,4 +24,15 @@
 ### merge sort
 ### quick sort
 
-## 
+## dynamic programming
+*这个问题有点难，知乎有很多优秀回答值得参考*  
+写在前面，以我目前粗浅的理解，第一次接触到实在著名的斐波拉契数列中
+简单来说就是递归/分治+使用内存来存下运行时数据，防止同样的问题算很多遍，以提升效率
+这也是维基百科定义的
+> dynamic programming is a method for solving a complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions.
+
+说重点！！ 这个教科书上在说啥，，我实在是看不懂
+
+> 4. 到这里就可以说明一下动态规划与递归、caching的关系，（1）递归只是动态规划的一种实现方式，属于“自顶向下”的实现方式。一个动态规划问题在实现的时候完全是可以用非递归的方式来编码实现的。所以，递归不是动态规划的本质。（2）Caching是动态规划实现过程中提升计算效率的一种方法，它的想法就是把计算过的值存起来，下次同样的计算过程直接使用保存的结果即可。Caching既可以用于递归实现，也可以用在非递归实现。所以，Caching也不是动态规划的本质。
+ 
+>看到这，，就不明白递归和。动态规划了。。。。。

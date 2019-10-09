@@ -1,6 +1,5 @@
 package com.company.recursion;
 
-import com.company.Main;
 
 public class QuickSort {
     private static int base;
@@ -50,7 +49,7 @@ public class QuickSort {
             swap(arr, right, left);
             if (arr[right] == arr[left]) {
                 break;
-            }
+            }// 这一步处理有相同值时出现无限循环的八哥
         }
         return left;
     }

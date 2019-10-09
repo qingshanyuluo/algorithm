@@ -8,6 +8,7 @@ public class Main {
         MyLinkedList<Integer> integerMyLinkedList = new MyLinkedList<>(data);
         integerMyLinkedList.insert(1, 10);
         integerMyLinkedList.delete(1);
+        "fsjflasfj".replace("aa", "a");
 
     }
 }
